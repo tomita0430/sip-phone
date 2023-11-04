@@ -1,0 +1,13 @@
+version: '3'
+services:
+  asterisk:
+    image: my-asterisk
+    ports:
+      - "5060:5060/udp"
+  
+  voip-app:
+    build: ./voip-app
+    depends_on:
+      - asterisk
+    environment:
+      - ASTERISK_SERVER=asterisk
