@@ -1,0 +1,314 @@
+[Nov 27 03:43:15] Asterisk 16.2.1~dfsg-2ubuntu1 built by nobody @ buildd.debian.org on a unknown running Linux on 2020-02-12 22:54:27 UTC
+[Nov 27 03:43:15] NOTICE[1] loader.c: 329 modules will be loaded.
+[Nov 27 03:43:15] NOTICE[1] res_config_ldap.c: No directory user found, anonymous binding as default.
+[Nov 27 03:43:15] ERROR[1] res_config_ldap.c: No directory URL or host found.
+[Nov 27 03:43:15] ERROR[1] res_config_ldap.c: Cannot load LDAP RealTime driver.
+[Nov 27 03:43:15] NOTICE[1] cdr.c: CDR simple logging enabled.
+[Nov 27 03:43:15] WARNING[1] res_phoneprov.c: Unable to find a valid server address or name.
+[Nov 27 03:43:15] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Nov 27 03:43:15] NOTICE[1] chan_skinny.c: Configuring skinny from skinny.conf
+[Nov 27 03:43:15] NOTICE[1] chan_skinny.c: Unable to load config skinny.conf, Skinny disabled.
+[Nov 27 03:43:15] NOTICE[1] chan_mgcp.c: Unable to load config mgcp.conf, MGCP disabled
+[Nov 27 03:43:15] ERROR[1] ari/config.c: No configured users for ARI
+[Nov 27 03:43:15] NOTICE[1] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[Nov 27 03:43:15] NOTICE[1] cel_tds.c: cel_tds has no global category, nothing to configure.
+[Nov 27 03:43:15] WARNING[1] cel_tds.c: cel_tds module had config problems; declining load
+[Nov 27 03:43:15] NOTICE[1] cel_radius.c: Cannot load radiusclient-ng configuration file /etc/radiusclient-ng/radiusclient.conf.
+[Nov 27 03:43:15] NOTICE[1] cdr_radius.c: Cannot load radiusclient-ng configuration file /etc/radiusclient-ng/radiusclient.conf.
+[Nov 27 03:43:15] NOTICE[1] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Nov 27 03:43:15] NOTICE[1] cdr_pgsql.c: cdr_pgsql configuration contains no global section, skipping module load.
+[Nov 27 03:43:15] WARNING[1] cel_pgsql.c: CEL pgsql config file missing global section.
+[Nov 27 03:43:15] ERROR[1] pbx_dundi.c: Unable to load config dundi.conf
+[Nov 27 03:43:15] ERROR[1] chan_unistim.c: Unable to load config unistim.conf
+[Nov 27 03:43:15] WARNING[1] res_hep_rtcp.c: res_hep is disabled; declining module load
+[Nov 27 03:43:15] WARNING[1] res_hep_pjsip.c: res_hep is disabled; declining module load
+[Nov 27 03:43:15] WARNING[1] loader.c: Some non-required modules failed to load.
+[Nov 27 03:43:15] ERROR[1] loader.c: chan_skinny declined to load.
+[Nov 27 03:43:15] ERROR[1] loader.c: res_pjsip_transport_websocket declined to load.
+[Nov 27 03:43:15] ERROR[1] loader.c: cel_tds declined to load.
+[Nov 27 03:43:15] ERROR[1] loader.c: cel_radius declined to load.
+[Nov 27 03:43:15] ERROR[1] loader.c: cdr_radius declined to load.
+[Nov 27 03:43:15] ERROR[1] loader.c: cdr_tds declined to load.
+[Nov 27 03:43:15] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[Nov 27 03:43:15] ERROR[1] loader.c: cdr_pgsql declined to load.
+[Nov 27 03:43:15] ERROR[1] loader.c: cel_sqlite3_custom declined to load.
+[Nov 27 03:43:15] ERROR[1] loader.c: pbx_dundi declined to load.
+[Nov 27 03:43:15] ERROR[1] loader.c: chan_unistim declined to load.
+[Nov 27 03:43:15] ERROR[1] loader.c: res_hep_rtcp declined to load.
+[Nov 27 03:43:15] ERROR[1] loader.c: res_hep_pjsip declined to load.
+[Nov 27 04:29:08] Asterisk 16.2.1~dfsg-2ubuntu1 built by nobody @ buildd.debian.org on a unknown running Linux on 2020-02-12 22:54:27 UTC
+[Nov 27 04:29:08] NOTICE[1] loader.c: 329 modules will be loaded.
+[Nov 27 04:29:09] NOTICE[1] res_config_ldap.c: No directory user found, anonymous binding as default.
+[Nov 27 04:29:09] ERROR[1] res_config_ldap.c: No directory URL or host found.
+[Nov 27 04:29:09] ERROR[1] res_config_ldap.c: Cannot load LDAP RealTime driver.
+[Nov 27 04:29:09] NOTICE[1] cdr.c: CDR simple logging enabled.
+[Nov 27 04:29:10] WARNING[1] res_phoneprov.c: Unable to find a valid server address or name.
+[Nov 27 04:29:10] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Nov 27 04:29:10] NOTICE[1] chan_skinny.c: Configuring skinny from skinny.conf
+[Nov 27 04:29:10] NOTICE[1] chan_skinny.c: Unable to load config skinny.conf, Skinny disabled.
+[Nov 27 04:29:10] NOTICE[1] chan_mgcp.c: Unable to load config mgcp.conf, MGCP disabled
+[Nov 27 04:29:10] ERROR[1] ari/config.c: No configured users for ARI
+[Nov 27 04:29:10] NOTICE[1] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[Nov 27 04:29:10] NOTICE[1] cel_tds.c: cel_tds has no global category, nothing to configure.
+[Nov 27 04:29:10] WARNING[1] cel_tds.c: cel_tds module had config problems; declining load
+[Nov 27 04:29:10] NOTICE[1] cel_radius.c: Cannot load radiusclient-ng configuration file /etc/radiusclient-ng/radiusclient.conf.
+[Nov 27 04:29:10] NOTICE[1] cdr_radius.c: Cannot load radiusclient-ng configuration file /etc/radiusclient-ng/radiusclient.conf.
+[Nov 27 04:29:10] NOTICE[1] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Nov 27 04:29:10] NOTICE[1] cdr_pgsql.c: cdr_pgsql configuration contains no global section, skipping module load.
+[Nov 27 04:29:10] WARNING[1] cel_pgsql.c: CEL pgsql config file missing global section.
+[Nov 27 04:29:10] ERROR[1] pbx_dundi.c: Unable to load config dundi.conf
+[Nov 27 04:29:10] ERROR[1] chan_unistim.c: Unable to load config unistim.conf
+[Nov 27 04:29:10] WARNING[1] res_hep_rtcp.c: res_hep is disabled; declining module load
+[Nov 27 04:29:10] WARNING[1] res_hep_pjsip.c: res_hep is disabled; declining module load
+[Nov 27 04:29:10] WARNING[1] loader.c: Some non-required modules failed to load.
+[Nov 27 04:29:10] ERROR[1] loader.c: chan_skinny declined to load.
+[Nov 27 04:29:10] ERROR[1] loader.c: res_pjsip_transport_websocket declined to load.
+[Nov 27 04:29:10] ERROR[1] loader.c: cel_tds declined to load.
+[Nov 27 04:29:10] ERROR[1] loader.c: cel_radius declined to load.
+[Nov 27 04:29:10] ERROR[1] loader.c: cdr_radius declined to load.
+[Nov 27 04:29:10] ERROR[1] loader.c: cdr_tds declined to load.
+[Nov 27 04:29:10] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[Nov 27 04:29:10] ERROR[1] loader.c: cdr_pgsql declined to load.
+[Nov 27 04:29:10] ERROR[1] loader.c: cel_sqlite3_custom declined to load.
+[Nov 27 04:29:10] ERROR[1] loader.c: pbx_dundi declined to load.
+[Nov 27 04:29:10] ERROR[1] loader.c: chan_unistim declined to load.
+[Nov 27 04:29:10] ERROR[1] loader.c: res_hep_rtcp declined to load.
+[Nov 27 04:29:10] ERROR[1] loader.c: res_hep_pjsip declined to load.
+[Nov 27 04:30:08] Asterisk 16.2.1~dfsg-2ubuntu1 built by nobody @ buildd.debian.org on a unknown running Linux on 2020-02-12 22:54:27 UTC
+[Nov 27 04:30:08] NOTICE[1] loader.c: 329 modules will be loaded.
+[Nov 27 04:30:08] NOTICE[1] res_config_ldap.c: No directory user found, anonymous binding as default.
+[Nov 27 04:30:08] ERROR[1] res_config_ldap.c: No directory URL or host found.
+[Nov 27 04:30:08] ERROR[1] res_config_ldap.c: Cannot load LDAP RealTime driver.
+[Nov 27 04:30:08] NOTICE[1] cdr.c: CDR simple logging enabled.
+[Nov 27 04:30:08] WARNING[1] res_phoneprov.c: Unable to find a valid server address or name.
+[Nov 27 04:30:08] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Nov 27 04:30:08] NOTICE[1] chan_skinny.c: Configuring skinny from skinny.conf
+[Nov 27 04:30:08] NOTICE[1] chan_skinny.c: Unable to load config skinny.conf, Skinny disabled.
+[Nov 27 04:30:08] NOTICE[1] chan_mgcp.c: Unable to load config mgcp.conf, MGCP disabled
+[Nov 27 04:30:08] ERROR[1] ari/config.c: No configured users for ARI
+[Nov 27 04:30:08] NOTICE[1] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[Nov 27 04:30:08] NOTICE[1] cel_tds.c: cel_tds has no global category, nothing to configure.
+[Nov 27 04:30:08] WARNING[1] cel_tds.c: cel_tds module had config problems; declining load
+[Nov 27 04:30:08] NOTICE[1] cel_radius.c: Cannot load radiusclient-ng configuration file /etc/radiusclient-ng/radiusclient.conf.
+[Nov 27 04:30:08] NOTICE[1] cdr_radius.c: Cannot load radiusclient-ng configuration file /etc/radiusclient-ng/radiusclient.conf.
+[Nov 27 04:30:08] NOTICE[1] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Nov 27 04:30:08] NOTICE[1] cdr_pgsql.c: cdr_pgsql configuration contains no global section, skipping module load.
+[Nov 27 04:30:08] WARNING[1] cel_pgsql.c: CEL pgsql config file missing global section.
+[Nov 27 04:30:09] ERROR[1] pbx_dundi.c: Unable to load config dundi.conf
+[Nov 27 04:30:09] ERROR[1] chan_unistim.c: Unable to load config unistim.conf
+[Nov 27 04:30:09] WARNING[1] res_hep_rtcp.c: res_hep is disabled; declining module load
+[Nov 27 04:30:09] WARNING[1] res_hep_pjsip.c: res_hep is disabled; declining module load
+[Nov 27 04:30:09] WARNING[1] loader.c: Some non-required modules failed to load.
+[Nov 27 04:30:09] ERROR[1] loader.c: chan_skinny declined to load.
+[Nov 27 04:30:09] ERROR[1] loader.c: res_pjsip_transport_websocket declined to load.
+[Nov 27 04:30:09] ERROR[1] loader.c: cel_tds declined to load.
+[Nov 27 04:30:09] ERROR[1] loader.c: cel_radius declined to load.
+[Nov 27 04:30:09] ERROR[1] loader.c: cdr_radius declined to load.
+[Nov 27 04:30:09] ERROR[1] loader.c: cdr_tds declined to load.
+[Nov 27 04:30:09] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[Nov 27 04:30:09] ERROR[1] loader.c: cdr_pgsql declined to load.
+[Nov 27 04:30:09] ERROR[1] loader.c: cel_sqlite3_custom declined to load.
+[Nov 27 04:30:09] ERROR[1] loader.c: pbx_dundi declined to load.
+[Nov 27 04:30:09] ERROR[1] loader.c: chan_unistim declined to load.
+[Nov 27 04:30:09] ERROR[1] loader.c: res_hep_rtcp declined to load.
+[Nov 27 04:30:09] ERROR[1] loader.c: res_hep_pjsip declined to load.
+[Nov 27 04:34:36] Asterisk 16.2.1~dfsg-2ubuntu1 built by nobody @ buildd.debian.org on a unknown running Linux on 2020-02-12 22:54:27 UTC
+[Nov 27 04:34:36] NOTICE[1] loader.c: 329 modules will be loaded.
+[Nov 27 04:34:36] NOTICE[1] res_config_ldap.c: No directory user found, anonymous binding as default.
+[Nov 27 04:34:36] ERROR[1] res_config_ldap.c: No directory URL or host found.
+[Nov 27 04:34:36] ERROR[1] res_config_ldap.c: Cannot load LDAP RealTime driver.
+[Nov 27 04:34:36] NOTICE[1] cdr.c: CDR simple logging enabled.
+[Nov 27 04:34:36] WARNING[1] manager.c: Invalid port number '5038/udp'
+[Nov 27 04:34:36] WARNING[1] res_phoneprov.c: Unable to find a valid server address or name.
+[Nov 27 04:34:36] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Nov 27 04:34:36] NOTICE[1] chan_skinny.c: Configuring skinny from skinny.conf
+[Nov 27 04:34:36] NOTICE[1] chan_skinny.c: Unable to load config skinny.conf, Skinny disabled.
+[Nov 27 04:34:36] NOTICE[1] chan_mgcp.c: Unable to load config mgcp.conf, MGCP disabled
+[Nov 27 04:34:36] ERROR[1] ari/config.c: No configured users for ARI
+[Nov 27 04:34:36] NOTICE[1] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[Nov 27 04:34:36] NOTICE[1] cel_tds.c: cel_tds has no global category, nothing to configure.
+[Nov 27 04:34:36] WARNING[1] cel_tds.c: cel_tds module had config problems; declining load
+[Nov 27 04:34:36] NOTICE[1] cel_radius.c: Cannot load radiusclient-ng configuration file /etc/radiusclient-ng/radiusclient.conf.
+[Nov 27 04:34:36] NOTICE[1] cdr_radius.c: Cannot load radiusclient-ng configuration file /etc/radiusclient-ng/radiusclient.conf.
+[Nov 27 04:34:36] NOTICE[1] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Nov 27 04:34:36] NOTICE[1] cdr_pgsql.c: cdr_pgsql configuration contains no global section, skipping module load.
+[Nov 27 04:34:36] WARNING[1] cel_pgsql.c: CEL pgsql config file missing global section.
+[Nov 27 04:34:36] ERROR[1] pbx_dundi.c: Unable to load config dundi.conf
+[Nov 27 04:34:36] ERROR[1] chan_unistim.c: Unable to load config unistim.conf
+[Nov 27 04:34:36] WARNING[1] res_hep_rtcp.c: res_hep is disabled; declining module load
+[Nov 27 04:34:36] WARNING[1] res_hep_pjsip.c: res_hep is disabled; declining module load
+[Nov 27 04:34:36] WARNING[1] loader.c: Some non-required modules failed to load.
+[Nov 27 04:34:36] ERROR[1] loader.c: chan_skinny declined to load.
+[Nov 27 04:34:36] ERROR[1] loader.c: res_pjsip_transport_websocket declined to load.
+[Nov 27 04:34:36] ERROR[1] loader.c: cel_tds declined to load.
+[Nov 27 04:34:36] ERROR[1] loader.c: cel_radius declined to load.
+[Nov 27 04:34:36] ERROR[1] loader.c: cdr_radius declined to load.
+[Nov 27 04:34:36] ERROR[1] loader.c: cdr_tds declined to load.
+[Nov 27 04:34:36] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[Nov 27 04:34:36] ERROR[1] loader.c: cdr_pgsql declined to load.
+[Nov 27 04:34:36] ERROR[1] loader.c: cel_sqlite3_custom declined to load.
+[Nov 27 04:34:36] ERROR[1] loader.c: pbx_dundi declined to load.
+[Nov 27 04:34:36] ERROR[1] loader.c: chan_unistim declined to load.
+[Nov 27 04:34:36] ERROR[1] loader.c: res_hep_rtcp declined to load.
+[Nov 27 04:34:36] ERROR[1] loader.c: res_hep_pjsip declined to load.
+[Nov 27 04:49:23] Asterisk 16.2.1~dfsg-2ubuntu1 built by nobody @ buildd.debian.org on a unknown running Linux on 2020-02-12 22:54:27 UTC
+[Nov 27 04:49:23] NOTICE[1] loader.c: 329 modules will be loaded.
+[Nov 27 04:49:24] NOTICE[1] res_config_ldap.c: No directory user found, anonymous binding as default.
+[Nov 27 04:49:24] ERROR[1] res_config_ldap.c: No directory URL or host found.
+[Nov 27 04:49:24] ERROR[1] res_config_ldap.c: Cannot load LDAP RealTime driver.
+[Nov 27 04:49:24] NOTICE[1] cdr.c: CDR simple logging enabled.
+[Nov 27 04:49:24] WARNING[1] res_phoneprov.c: Unable to find a valid server address or name.
+[Nov 27 04:49:24] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Nov 27 04:49:24] NOTICE[1] chan_skinny.c: Configuring skinny from skinny.conf
+[Nov 27 04:49:24] NOTICE[1] chan_skinny.c: Unable to load config skinny.conf, Skinny disabled.
+[Nov 27 04:49:24] NOTICE[1] chan_mgcp.c: Unable to load config mgcp.conf, MGCP disabled
+[Nov 27 04:49:24] ERROR[1] ari/config.c: No configured users for ARI
+[Nov 27 04:49:24] NOTICE[1] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[Nov 27 04:49:24] NOTICE[1] cel_tds.c: cel_tds has no global category, nothing to configure.
+[Nov 27 04:49:24] WARNING[1] cel_tds.c: cel_tds module had config problems; declining load
+[Nov 27 04:49:24] NOTICE[1] cel_radius.c: Cannot load radiusclient-ng configuration file /etc/radiusclient-ng/radiusclient.conf.
+[Nov 27 04:49:24] NOTICE[1] cdr_radius.c: Cannot load radiusclient-ng configuration file /etc/radiusclient-ng/radiusclient.conf.
+[Nov 27 04:49:24] NOTICE[1] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Nov 27 04:49:24] NOTICE[1] cdr_pgsql.c: cdr_pgsql configuration contains no global section, skipping module load.
+[Nov 27 04:49:24] WARNING[1] cel_pgsql.c: CEL pgsql config file missing global section.
+[Nov 27 04:49:24] ERROR[1] pbx_dundi.c: Unable to load config dundi.conf
+[Nov 27 04:49:24] ERROR[1] chan_unistim.c: Unable to load config unistim.conf
+[Nov 27 04:49:24] WARNING[1] res_hep_rtcp.c: res_hep is disabled; declining module load
+[Nov 27 04:49:24] WARNING[1] res_hep_pjsip.c: res_hep is disabled; declining module load
+[Nov 27 04:49:24] WARNING[1] loader.c: Some non-required modules failed to load.
+[Nov 27 04:49:24] ERROR[1] loader.c: chan_skinny declined to load.
+[Nov 27 04:49:24] ERROR[1] loader.c: res_pjsip_transport_websocket declined to load.
+[Nov 27 04:49:24] ERROR[1] loader.c: cel_tds declined to load.
+[Nov 27 04:49:24] ERROR[1] loader.c: cel_radius declined to load.
+[Nov 27 04:49:24] ERROR[1] loader.c: cdr_radius declined to load.
+[Nov 27 04:49:24] ERROR[1] loader.c: cdr_tds declined to load.
+[Nov 27 04:49:24] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[Nov 27 04:49:24] ERROR[1] loader.c: cdr_pgsql declined to load.
+[Nov 27 04:49:24] ERROR[1] loader.c: cel_sqlite3_custom declined to load.
+[Nov 27 04:49:24] ERROR[1] loader.c: pbx_dundi declined to load.
+[Nov 27 04:49:24] ERROR[1] loader.c: chan_unistim declined to load.
+[Nov 27 04:49:24] ERROR[1] loader.c: res_hep_rtcp declined to load.
+[Nov 27 04:49:24] ERROR[1] loader.c: res_hep_pjsip declined to load.
+[Nov 27 04:51:34] Asterisk 16.2.1~dfsg-2ubuntu1 built by nobody @ buildd.debian.org on a unknown running Linux on 2020-02-12 22:54:27 UTC
+[Nov 27 04:51:35] NOTICE[1] loader.c: 329 modules will be loaded.
+[Nov 27 04:51:35] NOTICE[1] res_config_ldap.c: No directory user found, anonymous binding as default.
+[Nov 27 04:51:35] ERROR[1] res_config_ldap.c: No directory URL or host found.
+[Nov 27 04:51:35] ERROR[1] res_config_ldap.c: Cannot load LDAP RealTime driver.
+[Nov 27 04:51:35] NOTICE[1] cdr.c: CDR simple logging enabled.
+[Nov 27 04:51:35] WARNING[1] res_phoneprov.c: Unable to find a valid server address or name.
+[Nov 27 04:51:35] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Nov 27 04:51:35] NOTICE[1] chan_skinny.c: Configuring skinny from skinny.conf
+[Nov 27 04:51:35] NOTICE[1] chan_skinny.c: Unable to load config skinny.conf, Skinny disabled.
+[Nov 27 04:51:35] NOTICE[1] chan_mgcp.c: Unable to load config mgcp.conf, MGCP disabled
+[Nov 27 04:51:35] ERROR[1] ari/config.c: No configured users for ARI
+[Nov 27 04:51:35] NOTICE[1] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[Nov 27 04:51:35] NOTICE[1] cel_tds.c: cel_tds has no global category, nothing to configure.
+[Nov 27 04:51:35] WARNING[1] cel_tds.c: cel_tds module had config problems; declining load
+[Nov 27 04:51:35] NOTICE[1] cel_radius.c: Cannot load radiusclient-ng configuration file /etc/radiusclient-ng/radiusclient.conf.
+[Nov 27 04:51:35] NOTICE[1] cdr_radius.c: Cannot load radiusclient-ng configuration file /etc/radiusclient-ng/radiusclient.conf.
+[Nov 27 04:51:35] NOTICE[1] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Nov 27 04:51:35] NOTICE[1] cdr_pgsql.c: cdr_pgsql configuration contains no global section, skipping module load.
+[Nov 27 04:51:35] WARNING[1] cel_pgsql.c: CEL pgsql config file missing global section.
+[Nov 27 04:51:35] ERROR[1] pbx_dundi.c: Unable to load config dundi.conf
+[Nov 27 04:51:35] ERROR[1] chan_unistim.c: Unable to load config unistim.conf
+[Nov 27 04:51:36] WARNING[1] res_hep_rtcp.c: res_hep is disabled; declining module load
+[Nov 27 04:51:36] WARNING[1] res_hep_pjsip.c: res_hep is disabled; declining module load
+[Nov 27 04:51:36] WARNING[1] loader.c: Some non-required modules failed to load.
+[Nov 27 04:51:36] ERROR[1] loader.c: chan_skinny declined to load.
+[Nov 27 04:51:36] ERROR[1] loader.c: res_pjsip_transport_websocket declined to load.
+[Nov 27 04:51:36] ERROR[1] loader.c: cel_tds declined to load.
+[Nov 27 04:51:36] ERROR[1] loader.c: cel_radius declined to load.
+[Nov 27 04:51:36] ERROR[1] loader.c: cdr_radius declined to load.
+[Nov 27 04:51:36] ERROR[1] loader.c: cdr_tds declined to load.
+[Nov 27 04:51:36] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[Nov 27 04:51:36] ERROR[1] loader.c: cdr_pgsql declined to load.
+[Nov 27 04:51:36] ERROR[1] loader.c: cel_sqlite3_custom declined to load.
+[Nov 27 04:51:36] ERROR[1] loader.c: pbx_dundi declined to load.
+[Nov 27 04:51:36] ERROR[1] loader.c: chan_unistim declined to load.
+[Nov 27 04:51:36] ERROR[1] loader.c: res_hep_rtcp declined to load.
+[Nov 27 04:51:36] ERROR[1] loader.c: res_hep_pjsip declined to load.
+[Nov 27 12:43:09] Asterisk 16.2.1~dfsg-2ubuntu1 built by nobody @ buildd.debian.org on a unknown running Linux on 2020-02-12 22:54:27 UTC
+[Nov 27 12:43:09] NOTICE[1] loader.c: 329 modules will be loaded.
+[Nov 27 12:43:10] NOTICE[1] res_config_ldap.c: No directory user found, anonymous binding as default.
+[Nov 27 12:43:10] ERROR[1] res_config_ldap.c: No directory URL or host found.
+[Nov 27 12:43:10] ERROR[1] res_config_ldap.c: Cannot load LDAP RealTime driver.
+[Nov 27 12:43:10] NOTICE[1] cdr.c: CDR simple logging enabled.
+[Nov 27 12:43:10] WARNING[1] res_phoneprov.c: Unable to find a valid server address or name.
+[Nov 27 12:43:10] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Nov 27 12:43:10] NOTICE[1] chan_skinny.c: Configuring skinny from skinny.conf
+[Nov 27 12:43:10] NOTICE[1] chan_skinny.c: Unable to load config skinny.conf, Skinny disabled.
+[Nov 27 12:43:10] NOTICE[1] chan_mgcp.c: Unable to load config mgcp.conf, MGCP disabled
+[Nov 27 12:43:10] ERROR[1] ari/config.c: No configured users for ARI
+[Nov 27 12:43:10] NOTICE[1] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[Nov 27 12:43:10] NOTICE[1] cel_tds.c: cel_tds has no global category, nothing to configure.
+[Nov 27 12:43:10] WARNING[1] cel_tds.c: cel_tds module had config problems; declining load
+[Nov 27 12:43:10] NOTICE[1] cel_radius.c: Cannot load radiusclient-ng configuration file /etc/radiusclient-ng/radiusclient.conf.
+[Nov 27 12:43:10] NOTICE[1] cdr_radius.c: Cannot load radiusclient-ng configuration file /etc/radiusclient-ng/radiusclient.conf.
+[Nov 27 12:43:10] NOTICE[1] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Nov 27 12:43:10] NOTICE[1] cdr_pgsql.c: cdr_pgsql configuration contains no global section, skipping module load.
+[Nov 27 12:43:10] WARNING[1] cel_pgsql.c: CEL pgsql config file missing global section.
+[Nov 27 12:43:10] ERROR[1] pbx_dundi.c: Unable to load config dundi.conf
+[Nov 27 12:43:10] ERROR[1] chan_unistim.c: Unable to load config unistim.conf
+[Nov 27 12:43:10] WARNING[1] res_hep_rtcp.c: res_hep is disabled; declining module load
+[Nov 27 12:43:10] WARNING[1] res_hep_pjsip.c: res_hep is disabled; declining module load
+[Nov 27 12:43:10] WARNING[1] loader.c: Some non-required modules failed to load.
+[Nov 27 12:43:10] ERROR[1] loader.c: chan_skinny declined to load.
+[Nov 27 12:43:10] ERROR[1] loader.c: res_pjsip_transport_websocket declined to load.
+[Nov 27 12:43:10] ERROR[1] loader.c: cel_tds declined to load.
+[Nov 27 12:43:10] ERROR[1] loader.c: cel_radius declined to load.
+[Nov 27 12:43:10] ERROR[1] loader.c: cdr_radius declined to load.
+[Nov 27 12:43:10] ERROR[1] loader.c: cdr_tds declined to load.
+[Nov 27 12:43:10] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[Nov 27 12:43:10] ERROR[1] loader.c: cdr_pgsql declined to load.
+[Nov 27 12:43:10] ERROR[1] loader.c: cel_sqlite3_custom declined to load.
+[Nov 27 12:43:10] ERROR[1] loader.c: pbx_dundi declined to load.
+[Nov 27 12:43:10] ERROR[1] loader.c: chan_unistim declined to load.
+[Nov 27 12:43:10] ERROR[1] loader.c: res_hep_rtcp declined to load.
+[Nov 27 12:43:10] ERROR[1] loader.c: res_hep_pjsip declined to load.
+[Nov 27 12:49:33] WARNING[81] chan_sip.c: Purely numeric hostname (201), and not a peer--rejecting!
+[Nov 27 12:49:39] WARNING[81] chan_sip.c: Purely numeric hostname (222), and not a peer--rejecting!
+[Nov 27 13:04:10] Asterisk 16.2.1~dfsg-2ubuntu1 built by nobody @ buildd.debian.org on a unknown running Linux on 2020-02-12 22:54:27 UTC
+[Nov 27 13:04:10] NOTICE[1] loader.c: 329 modules will be loaded.
+[Nov 27 13:04:10] NOTICE[1] res_config_ldap.c: No directory user found, anonymous binding as default.
+[Nov 27 13:04:10] ERROR[1] res_config_ldap.c: No directory URL or host found.
+[Nov 27 13:04:10] ERROR[1] res_config_ldap.c: Cannot load LDAP RealTime driver.
+[Nov 27 13:04:10] NOTICE[1] cdr.c: CDR simple logging enabled.
+[Nov 27 13:04:10] WARNING[1] res_phoneprov.c: Unable to find a valid server address or name.
+[Nov 27 13:04:10] NOTICE[1] res_smdi.c: No SMDI interfaces are available to listen on, not starting SMDI listener.
+[Nov 27 13:04:10] NOTICE[1] chan_skinny.c: Configuring skinny from skinny.conf
+[Nov 27 13:04:10] NOTICE[1] chan_skinny.c: Unable to load config skinny.conf, Skinny disabled.
+[Nov 27 13:04:10] NOTICE[1] chan_mgcp.c: Unable to load config mgcp.conf, MGCP disabled
+[Nov 27 13:04:10] ERROR[1] ari/config.c: No configured users for ARI
+[Nov 27 13:04:10] NOTICE[1] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[Nov 27 13:04:10] NOTICE[1] cel_tds.c: cel_tds has no global category, nothing to configure.
+[Nov 27 13:04:10] WARNING[1] cel_tds.c: cel_tds module had config problems; declining load
+[Nov 27 13:04:10] NOTICE[1] cel_radius.c: Cannot load radiusclient-ng configuration file /etc/radiusclient-ng/radiusclient.conf.
+[Nov 27 13:04:10] NOTICE[1] cdr_radius.c: Cannot load radiusclient-ng configuration file /etc/radiusclient-ng/radiusclient.conf.
+[Nov 27 13:04:10] NOTICE[1] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Nov 27 13:04:10] NOTICE[1] cdr_pgsql.c: cdr_pgsql configuration contains no global section, skipping module load.
+[Nov 27 13:04:10] WARNING[1] cel_pgsql.c: CEL pgsql config file missing global section.
+[Nov 27 13:04:10] ERROR[1] pbx_dundi.c: Unable to load config dundi.conf
+[Nov 27 13:04:10] ERROR[1] chan_unistim.c: Unable to load config unistim.conf
+[Nov 27 13:04:10] WARNING[1] res_hep_rtcp.c: res_hep is disabled; declining module load
+[Nov 27 13:04:10] WARNING[1] pbx.c: Unable to register extension '203' priority 1 in 'default', already in use
+[Nov 27 13:04:10] WARNING[1] pbx_config.c: Unable to register extension at line 16 of extensions.conf
+[Nov 27 13:04:10] WARNING[1] pbx.c: Unable to register extension '201' priority 1 in 'default', already in use
+[Nov 27 13:04:10] WARNING[1] pbx_config.c: Unable to register extension at line 19 of extensions.conf
+[Nov 27 13:04:10] WARNING[1] pbx.c: Unable to register extension '202' priority 1 in 'default', already in use
+[Nov 27 13:04:10] WARNING[1] pbx_config.c: Unable to register extension at line 22 of extensions.conf
+[Nov 27 13:04:10] WARNING[1] res_hep_pjsip.c: res_hep is disabled; declining module load
+[Nov 27 13:04:10] WARNING[1] loader.c: Some non-required modules failed to load.
+[Nov 27 13:04:10] ERROR[1] loader.c: chan_skinny declined to load.
+[Nov 27 13:04:10] ERROR[1] loader.c: res_pjsip_transport_websocket declined to load.
+[Nov 27 13:04:10] ERROR[1] loader.c: cel_tds declined to load.
+[Nov 27 13:04:10] ERROR[1] loader.c: cel_radius declined to load.
+[Nov 27 13:04:10] ERROR[1] loader.c: cdr_radius declined to load.
+[Nov 27 13:04:10] ERROR[1] loader.c: cdr_tds declined to load.
+[Nov 27 13:04:10] ERROR[1] loader.c: cdr_sqlite3_custom declined to load.
+[Nov 27 13:04:10] ERROR[1] loader.c: cdr_pgsql declined to load.
+[Nov 27 13:04:10] ERROR[1] loader.c: cel_sqlite3_custom declined to load.
+[Nov 27 13:04:10] ERROR[1] loader.c: pbx_dundi declined to load.
+[Nov 27 13:04:10] ERROR[1] loader.c: chan_unistim declined to load.
+[Nov 27 13:04:10] ERROR[1] loader.c: res_hep_rtcp declined to load.
+[Nov 27 13:04:10] ERROR[1] loader.c: res_hep_pjsip declined to load.
+[Nov 27 13:05:56] WARNING[81] chan_sip.c: Purely numeric hostname (201), and not a peer--rejecting!

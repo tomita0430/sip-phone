@@ -1,19 +1,23 @@
-# ベースイメージの指定
-FROM debian:bullseye-slim
+# ベースイメージとしてUbuntuを使用
+FROM ubuntu:20.04
 
-# Asteriskのインストールに必要なパッケージをインストール
+# 環境変数の設定
+ENV DEBIAN_FRONTEND=noninteractive
+
+# 必要なパッケージのインストール
 RUN apt-get update && apt-get install -y \
     asterisk \
-    asterisk-modules \
     && rm -rf /var/lib/apt/lists/*
 
-# 設定ファイルをコンテナにコピー
-COPY config/sip.conf /etc/asterisk/sip.conf
+# Asterisk設定ファイルのコピー
+COPY config/pjsip.conf /etc/asterisk/pjsip.conf
 COPY config/extensions.conf /etc/asterisk/extensions.conf
+COPY config/manager.conf /etc/asterisk/manager.conf
 
-# 必要なポートを公開
-EXPOSE 5060/udp
-EXPOSE 10000-20000/udp
 
-# Asteriskの実行
-CMD ["/usr/sbin/asterisk", "-f"]
+# 使用するポートを公開
+EXPOSE 5060
+EXPOSE 10000-10010
+
+# Asteriskをフォアグラウンドで実行
+CMD ["asterisk", "-vvvvv", "-f"]

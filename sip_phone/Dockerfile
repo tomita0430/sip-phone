@@ -1,25 +1,30 @@
-# 使用するベースイメージを指定
-FROM ubuntu:latest
+# Python環境のベースイメージを使用
+FROM python:3.9
 
-# 必要なパッケージをインストール
+# 作業ディレクトリを設定
+WORKDIR /usr/src/app
+
+# 必要なライブラリをインストール
 RUN apt-get update && apt-get install -y \
-    python3 \
-    python3-pip \
     build-essential \
+    python-dev-is-python3 \
+    # libpjsua2 をビルドするための依存関係をインストール
+    libssl-dev \
     libasound2-dev
 
-# PJSIP ライブラリをダウンロード、ビルド、インストール
-RUN apt-get install -y wget && \
-    wget https://www.pjsip.org/release/2.10/pjproject-2.10.tar.bz2 && \
-    tar -xjf pjproject-2.10.tar.bz2 && \
-    cd pjproject-2.10 && \
-    ./configure && make dep && make && make install && \
-    cd .. && rm -rf pjproject-2.10 pjproject-2.10.tar.bz2
+# PJSIP をビルドしてインストール
+RUN wget https://github.com/pjsip/pjproject/archive/refs/tags/2.14.tar.gz && \
+    tar -xzf 2.14.tar.gz && \
+    cd pjproject-2.14 && \
+    ./configure && \
+    make dep && make && make install
 
-# アプリケーションのコードと依存関係をコピー
-COPY . /app
-WORKDIR /app
-RUN pip3 install -r requirements.txt
+# Pythonの依存関係をインストール
+COPY requirements.txt ./
+RUN pip install --no-cache-dir -r requirements.txt
+
+# アプリケーションのソースコードをコピー
+COPY src/ .
 
 # アプリケーションを実行
-CMD ["python3", "app.py"]
+#CMD [ "python", "./app.py" ]
